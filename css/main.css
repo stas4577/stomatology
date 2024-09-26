@@ -424,7 +424,7 @@ h3 {
           transform: translateY(-50%);
   height: 1.6rem;
   width: 2.3rem;
-  background: url("img/link_arrow.svg");
+  background: url("../img/link_arrow.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
