@@ -1,0 +1,33 @@
+
+
+
+.footer{
+    background: #F2F2F2;
+    padding-bottom: 4.4rem;
+
+    &__main{
+        display: flex;
+        padding: 2.5rem 0 4.4rem 0;
+        gap: 2.9rem;
+
+    }
+
+    &-row{
+        display: flex;
+        flex-direction: column; 
+        flex: 1 1 25%;
+
+        &__title{
+            font-weight: 500;
+            margin-bottom: 1.56rem;
+        }
+
+        &__link{
+            margin-bottom: 1.25rem;
+        }
+
+        &__logo{
+            margin-bottom: 1.34rem;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+@import 'basic.scss';
+
+.pre-header {
+	background: $main_white;
+	padding: 1.06rem 0;
+	color: $main_color_font;
+
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__links {
+		column-gap: 1.25rem;
+		display: flex;
+		font-weight: 300;
+	}
+
+	&__link {
+		font-size: 0.875rem;
+	}
+
+	&__main {
+		display: flex;
+		align-items: center;
+	}
+
+	&__btn {
+		border-radius: 1.25rem;
+		background: #d22124;
+		padding: 0.5rem 1.25rem;
+		margin-left: 0.3rem;
+		color: #fff;
+		font-weight: 400;
+	}
+
+	&__social {
+		margin-right: 0.63rem;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	& .link {
+		margin-right: 0.93rem;
+		font-weight: 400;
+	}
+}
+
+.header {
+	background: rgba(255, 255, 255, 0);
+
+	box-shadow: 0px 0px 210.117px 0px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(105.05838012695312px);
+
+	padding: 1.2rem 0;
+
+	&__link {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__act {
+		display: flex;
+	}
+
+	&__links {
+		display: flex;
+		margin-left: auto;
+		margin-right: 2.3rem;
+	}
+	&__link {
+		margin-left: 1.56rem;
+		font-size: 1.125rem;
+		font-style: normal;
+		font-weight: 400;
+	}
+}
+.btn {
+	padding: 0.8rem 1.9rem;
+	border-radius: 0.9375rem;
+	cursor: pointer;
+	&_green {
+		background-color: $main_green;
+		font-weight: 500;
+		color: $main_color_font;
+	}
+}

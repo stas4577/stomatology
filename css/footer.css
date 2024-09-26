@@ -1,0 +1,33 @@
+.footer {
+  background: #F2F2F2;
+  padding-bottom: 4.4rem;
+}
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.5rem 0 4.4rem 0;
+  gap: 2.9rem;
+}
+.footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+}
+.footer-row__title {
+  font-weight: 500;
+  margin-bottom: 1.56rem;
+}
+.footer-row__link {
+  margin-bottom: 1.25rem;
+}
+.footer-row__logo {
+  margin-bottom: 1.34rem;
+}
