@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Масла</title>
-	<link rel="stylesheet" href="/css/main.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Десткая стоматология</title>
+	<link rel="stylesheet" href="/css/main.css" />
 	<script src="/js/jquery-3.7.1.min.js"></script>
-
-
+	<script src="/js/slider.js"></script>
+	<script src="/js/news_slider.js"></script>
 </head>
+
 <body>
-	
 
 <script src="/js/jquery-3.7.1.min.js"></script>
-
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 
 <link rel="stylesheet" href="/css/header.css">
 
@@ -28,42 +28,684 @@
 	<div class="container">
 		<div class="pre-header__wrap">
 			<div class="pre-header__links">
-				 <a href="#" class="pre-header__link ">г. Челябинск/Екатеринбург</a>
-				 <a href="#" class="pre-header__link">Способы оплаты</a>
-				 <a href="#" class="pre-header__link">Условия доставки</a>
+				 <a href="#" class="pre-header__link ">г. Челябинск,  ул. Советская 38</a>
+				 <a href="#" class="pre-header__link">Сегодня работаем с 09:00 до 20:00</a>
 			</div>
 			<div class="pre-header__main">
-				<a href="#" class="link link_small">+7 (351) 215-02-49</a>
-				<a href="#" class="pre-header__social"><svg width="66" height="28" viewBox="0 0 66 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M52 28C59.732 28 66 21.732 66 14C66 6.26801 59.732 0 52 0C44.268 0 38 6.26801 38 14C38 21.732 44.268 28 52 28Z" fill="url(#paint0_linear_2012_281)"/>
-					<path fill-rule="evenodd" clip-rule="evenodd" d="M44.3371 13.8523C48.4184 12.0741 51.1399 10.9018 52.5016 10.3355C56.3896 8.71833 57.1974 8.43741 57.724 8.42814C57.8398 8.4261 58.0988 8.4548 58.2665 8.59091C58.4081 8.70583 58.4471 8.86108 58.4658 8.97004C58.4844 9.07901 58.5076 9.32723 58.4892 9.52118C58.2785 11.7349 57.3668 17.1071 56.903 19.5865C56.7068 20.6356 56.3204 20.9874 55.9463 21.0218C55.1333 21.0966 54.5159 20.4845 53.7285 19.9683C52.4963 19.1606 51.8002 18.6578 50.6041 17.8696C49.2219 16.9588 50.1179 16.4581 50.9057 15.64C51.1118 15.4258 54.694 12.1676 54.7633 11.8721C54.772 11.8351 54.78 11.6973 54.6981 11.6245C54.6163 11.5518 54.4955 11.5767 54.4083 11.5964C54.2847 11.6245 52.3163 12.9255 48.503 15.4996C47.9443 15.8833 47.4382 16.0702 46.9848 16.0604C46.4849 16.0496 45.5233 15.7778 44.8085 15.5454C43.9318 15.2604 43.2349 15.1098 43.2956 14.6257C43.3272 14.3736 43.6744 14.1158 44.3371 13.8523Z" fill="white"/>
-					<circle cx="14" cy="14" r="14" fill="#D9D9D9"/>
-					<circle cx="14" cy="14" r="14" fill="url(#paint1_linear_2012_281)"/>
-					<path fill-rule="evenodd" clip-rule="evenodd" d="M11.8531 10.6474C11.6921 10.3209 11.5226 10.3143 11.3694 10.3086C11.2441 10.3037 11.1007 10.304 10.9575 10.304C10.8142 10.304 10.5813 10.3532 10.3844 10.5494C10.1873 10.7456 9.63202 11.22 9.63202 12.1848C9.63202 13.1497 10.4023 14.082 10.5097 14.2129C10.6172 14.3437 11.9966 16.3869 14.1813 17.1729C15.997 17.8261 16.3664 17.6962 16.7605 17.6635C17.1546 17.6308 18.0322 17.1892 18.2113 16.7313C18.3904 16.2735 18.3904 15.881 18.3367 15.799C18.283 15.7173 18.1397 15.6682 17.9247 15.5702C17.7097 15.4721 16.653 14.9976 16.456 14.9323C16.2589 14.8669 16.1156 14.8342 15.9723 15.0305C15.829 15.2267 15.4173 15.6682 15.2919 15.799C15.1665 15.93 15.0412 15.9464 14.8262 15.8483C14.6112 15.75 13.919 15.5431 13.0977 14.875C12.4588 14.3553 12.0274 13.7134 11.902 13.5171C11.7766 13.321 11.8886 13.2147 11.9964 13.117C12.0929 13.0291 12.2114 12.888 12.3188 12.7735C12.4261 12.659 12.4619 12.5773 12.5336 12.4466C12.6052 12.3156 12.5694 12.2011 12.5157 12.103C12.4619 12.005 12.0442 11.0352 11.8531 10.6474Z" fill="white"/>
-					<path d="M19.9521 8.04137C18.3727 6.46793 16.2726 5.60096 14.0351 5.59998C9.42425 5.59998 5.67199 9.33429 5.67014 13.9243C5.66959 15.3915 6.05467 16.8237 6.78661 18.0862L5.59991 22.4L10.0343 21.2424C11.256 21.9057 12.6316 22.2553 14.0315 22.2558H14.035H14.0351C18.6451 22.2558 22.3979 18.5208 22.3999 13.931C22.4007 11.7065 21.5313 9.61491 19.9521 8.04137ZM14.0351 20.8498H14.0324C12.7846 20.8492 11.561 20.5157 10.4937 19.8852L10.2397 19.7353L7.60827 20.4221L8.31081 17.8689L8.14533 17.6072C7.44932 16.5054 7.08188 15.2322 7.08242 13.9249C7.08394 10.1098 10.2027 7.00607 14.0377 7.00607C15.8948 7.00683 17.6403 7.72748 18.953 9.03527C20.2657 10.3431 20.9881 12.0815 20.9875 13.9305C20.9859 17.7457 17.867 20.8498 14.0351 20.8498Z" fill="white"/>
-					<defs>
-					<linearGradient id="paint0_linear_2012_281" x1="52" y1="0" x2="52" y2="27.7923" gradientUnits="userSpaceOnUse">
-					<stop stop-color="#2AABEE"/>
-					<stop offset="1" stop-color="#229ED9"/>
-					</linearGradient>
-					<linearGradient id="paint1_linear_2012_281" x1="14" y1="28" x2="14" y2="4.673e-05" gradientUnits="userSpaceOnUse">
-					<stop stop-color="#20B038"/>
-					<stop offset="1" stop-color="#60D66A"/>
-					</linearGradient>
-					</defs> 
+				<a href="tel: 8 (967) 313-33-53" class="link link_small">8 (967) 313-33-53</a>
+				<a href="#" class="pre-header__social">
+					<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="14" cy="14" r="14" fill="#D9D9D9"/>
+						<circle cx="14" cy="14" r="14" fill="url(#paint0_linear_2053_302)"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M11.8531 10.6474C11.6921 10.3209 11.5226 10.3143 11.3694 10.3086C11.2441 10.3037 11.1007 10.304 10.9575 10.304C10.8142 10.304 10.5813 10.3532 10.3844 10.5494C10.1873 10.7456 9.63202 11.22 9.63202 12.1848C9.63202 13.1497 10.4023 14.082 10.5097 14.2129C10.6172 14.3437 11.9966 16.3869 14.1813 17.1729C15.997 17.8261 16.3664 17.6962 16.7605 17.6635C17.1546 17.6308 18.0322 17.1892 18.2113 16.7313C18.3904 16.2735 18.3904 15.881 18.3367 15.799C18.283 15.7173 18.1397 15.6682 17.9247 15.5702C17.7097 15.4721 16.653 14.9976 16.456 14.9323C16.2589 14.8669 16.1156 14.8342 15.9723 15.0305C15.829 15.2267 15.4173 15.6682 15.2919 15.799C15.1665 15.93 15.0412 15.9464 14.8262 15.8483C14.6112 15.75 13.919 15.5431 13.0977 14.875C12.4588 14.3553 12.0274 13.7134 11.902 13.5171C11.7766 13.321 11.8886 13.2147 11.9964 13.117C12.0929 13.0291 12.2114 12.888 12.3188 12.7735C12.4261 12.659 12.4619 12.5773 12.5336 12.4466C12.6052 12.3156 12.5694 12.2011 12.5157 12.103C12.4619 12.005 12.0442 11.0352 11.8531 10.6474Z" fill="white"/>
+						<path d="M19.9521 8.04137C18.3727 6.46793 16.2726 5.60096 14.0351 5.59998C9.42425 5.59998 5.67199 9.33429 5.67014 13.9243C5.66959 15.3915 6.05467 16.8237 6.78661 18.0862L5.59991 22.4L10.0343 21.2424C11.256 21.9057 12.6316 22.2553 14.0315 22.2558H14.035H14.0351C18.6451 22.2558 22.3979 18.5208 22.3999 13.931C22.4007 11.7065 21.5313 9.61491 19.9521 8.04137ZM14.0351 20.8498H14.0324C12.7846 20.8492 11.561 20.5157 10.4937 19.8852L10.2397 19.7353L7.60827 20.4221L8.31081 17.8689L8.14533 17.6072C7.44932 16.5054 7.08188 15.2322 7.08242 13.9249C7.08394 10.1098 10.2027 7.00607 14.0377 7.00607C15.8948 7.00683 17.6403 7.72748 18.953 9.03527C20.2657 10.3431 20.9881 12.0815 20.9875 13.9305C20.9859 17.7457 17.867 20.8498 14.0351 20.8498Z" fill="white"/>
+						<defs>
+						<linearGradient id="paint0_linear_2053_302" x1="14" y1="28" x2="14" y2="4.673e-05" gradientUnits="userSpaceOnUse">
+						<stop stop-color="#20B038"/>
+						<stop offset="1" stop-color="#60D66A"/>
+						</linearGradient>
+						</defs>
 					</svg>
+
 					</a> 
-				<a href="#" class="pre-header__btn">Заказать звонок</a>	
+
+					<a href="#" class="pre-header__social">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14 28C21.732 28 28 21.732 28 14C28 6.26801 21.732 0 14 0C6.26801 0 0 6.26801 0 14C0 21.732 6.26801 28 14 28Z" fill="url(#paint0_linear_2053_299)"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M6.33713 13.8523C10.4184 12.0741 13.1399 10.9018 14.5016 10.3355C18.3896 8.71833 19.1974 8.43741 19.724 8.42814C19.8398 8.4261 20.0988 8.4548 20.2665 8.59091C20.4081 8.70583 20.4471 8.86108 20.4658 8.97004C20.4844 9.07901 20.5076 9.32723 20.4892 9.52118C20.2785 11.7349 19.3668 17.1071 18.903 19.5865C18.7068 20.6356 18.3204 20.9874 17.9463 21.0218C17.1333 21.0966 16.5159 20.4845 15.7285 19.9683C14.4963 19.1606 13.8002 18.6578 12.6041 17.8696C11.2219 16.9588 12.1179 16.4581 12.9057 15.64C13.1118 15.4258 16.694 12.1676 16.7633 11.8721C16.772 11.8351 16.78 11.6973 16.6981 11.6245C16.6163 11.5518 16.4955 11.5767 16.4083 11.5964C16.2847 11.6245 14.3163 12.9255 10.503 15.4996C9.94427 15.8833 9.43819 16.0702 8.98475 16.0604C8.48488 16.0496 7.52333 15.7778 6.80851 15.5454C5.93176 15.2604 5.23494 15.1098 5.29561 14.6257C5.32722 14.3736 5.67439 14.1158 6.33713 13.8523Z" fill="white"/>
+							<defs>
+							<linearGradient id="paint0_linear_2053_299" x1="14" y1="0" x2="14" y2="27.7923" gradientUnits="userSpaceOnUse">
+							<stop stop-color="#2AABEE"/>
+							<stop offset="1" stop-color="#229ED9"/>
+							</linearGradient>
+							</defs>
+						</svg>
+
+
+					</a>  
 			</div>
 		</div>
 	</div>
-</header>	 
+</header><header class="header">
+	<div class="container">
+		<div class="header__wrap">
+			<div class="header__act">
+				<div class="header__logo">
+					<img src="/img/logo.svg" alt="" />
+				</div>
+			</div>
+			<div class="header__links">
+				<a href="#" class="header__link"> Услуги </a>
+				<a href="#" class="header__link"> Акции </a>
+				<a href="#" class="header__link"> Цены </a>
+				<a href="#" class="header__link"> Отзывы </a>
+				<a href="#" class="header__link"> Врачи </a>
+				<a href="#" class="header__link"> О клинике </a>
+				<a href="#" class="header__link"> Контакты </a>
+			</div>
+			<a href="#" class="header__call btn_green btn">Записаться</a>
+		</div>
+	</div>
+</header>
 
-	
-	
-	
+	<section class="main-slider">
+		<div class="container">
+			<div class="main-slider__wrap">
+				<div class="main-slider__block">
+					<div class="main-slider__arrow main-slider__arrow_left slider-left">
+						<img src="/img/slider_arrow.svg" alt="" />
+					</div>
+					<div class="main-slider__arrow main-slider__arrow_right slider-right">
+						<img src="/img/slider_arrow.svg" alt="" />
+					</div>
+
+					<div class="main-slider__els slider">
+						<div class="main-slider__content main-slider_active">
+							<div class="main-slider_bg">
+								<img src="/img/banner_1.png" alt="" />
+							</div>
+						</div>
+						<div class="main-slider__content main-slider_active">
+							<div class="main-slider_bg">
+								<img src="/img/banner_1.png" alt="" />
+							</div>
+						</div>
+						<div class="main-slider__content main-slider_active">
+							<div class="main-slider_bg">
+								<img src="/img/banner_1.png" alt="" />
+							</div>
+						</div>
+
+
+					</div>
+
+					<div class="main-slider__nav">
+						<div class="main-slider__nav-el main-slider__nav-el_active"></div>
+					</div>
+				</div>
+
+				<div class="main-slider__adv">
+					<div class="main-slider__adv__item">
+						<div class="main-slider__adv__item__text">
+							<span>В нашей клинике</span>
+							<span class="adv_big">30 врачей</span>
+							<span>для любой задачи</span>
+						</div>
+						<div class="main-slider__adv__item__img">
+							<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65"
+								fill="none">
+								<path
+									d="M61.4709 33.1406H56.6337V24.7411H61.4906C62.1642 24.7411 62.805 24.4666 63.2735 23.9862C63.7412 23.5068 63.9997 22.8616 63.9997 22.194C63.9997 21.5263 63.7412 20.8812 63.2735 20.4017C62.805 19.9214 62.1642 19.6468 61.4906 19.6468H56.6337V17.7373C56.6337 15.428 55.7391 13.2084 54.1391 11.5681C52.5383 9.92699 50.3617 9.00029 48.0868 9.00029L17.8981 9.00028L17.8953 9.00029C15.6231 9.00679 13.4509 9.93524 11.852 11.5745C10.2539 13.2128 9.35751 15.428 9.35124 17.7346H9.35123V17.7373V19.6468H4.50943C3.83583 19.6468 3.195 19.9214 2.72646 20.4017C2.25875 20.8812 2.00029 21.5263 2.00029 22.194C2.00029 22.8616 2.25875 23.5067 2.72646 23.9862C3.19499 24.4666 3.83583 24.7411 4.50943 24.7411H9.35123V33.1406H4.50943C3.83582 33.1406 3.19499 33.4152 2.72646 33.8955C2.25876 34.375 2.00029 35.0201 2.00029 35.6878C2.00029 36.3554 2.25876 37.0006 2.72646 37.4801C3.195 37.9604 3.83583 38.235 4.50943 38.235H9.35123L9.35122 38.2566L9.35124 38.2614C9.36428 40.9309 10.1095 43.5444 11.504 45.8036C12.8986 48.0629 14.8873 49.878 17.2455 51.0381L17.2519 51.0412L22.5029 53.5781C22.5032 53.5783 22.5035 53.5784 22.5038 53.5786C25.786 55.1724 29.3736 55.9997 33.0075 55.9997C36.6418 55.9997 40.2298 55.1723 43.5122 53.5781L43.5124 53.578L48.6139 51.0991C48.6676 51.0831 48.7201 51.0625 48.7708 51.0375C51.1254 49.8753 53.1096 48.0587 54.4988 45.7987C55.8879 43.539 56.627 40.9261 56.6337 38.2591V38.2566V38.235H61.4906C62.1642 38.235 62.805 37.9604 63.2735 37.4801C63.7412 37.0006 63.9997 36.3554 63.9997 35.6878C63.9997 35.3546 63.9353 35.0241 63.8097 34.7153C63.684 34.4064 63.4992 34.1244 63.2647 33.8864C63.0302 33.6484 62.7506 33.459 62.4415 33.3305C62.134 33.2027 61.8041 33.138 61.4709 33.1406Z"
+									stroke="#1B1D21" stroke-width="1.99942" stroke-linecap="round"
+									stroke-linejoin="round" />
+								<path d="M25.6116 38.7672H40.5097M21.1738 25.2579H44.9021" stroke="#1B1D21"
+									stroke-width="1.99942" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+					<div class="main-slider__adv__item">
+						<div class="main-slider__adv__item__text">
+							<span>Лечим под</span>
+							<span class="adv_big">наркозом</span>
+							<span>на благо ваших детей</span>
+						</div>
+						<div class="main-slider__adv__item__img">
+							<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65"
+								fill="none">
+								<path
+									d="M33.1268 55.9759L33.1274 55.9759C41.6672 56.3511 49.3087 52.3166 53.8941 45.9589C54.3984 45.2667 54.7536 44.5735 54.9103 43.9054C55.0685 43.2312 55.0347 42.5216 54.6651 41.9087C53.9167 40.6678 52.2925 40.4962 50.7066 40.7891C49.2916 41.0458 47.8343 41.1529 46.3113 41.0886L46.3106 41.0886C35.9879 40.6608 27.5313 31.8979 27.4891 21.5688L27.4891 21.5653C27.468 18.7846 28.0376 16.1551 29.0722 13.7589L29.0729 13.7574C29.7063 12.2835 29.8696 10.6791 28.8245 9.68336C27.8007 8.70796 26.2031 8.89124 24.7412 9.51905C15.5784 13.4348 9.29892 22.7945 10.0627 33.5198C10.8976 45.6139 21.0114 55.436 33.1268 55.9759Z"
+									stroke="#1B1D21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+					<div class="main-slider__adv__item">
+						<div class="main-slider__adv__item__text">
+							<span>В клинике</span>
+							<span class="adv_big">есть всё</span>
+							<span>для полного лечения</span>
+						</div>
+						<div class="main-slider__adv__item__img">
+							<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65"
+								fill="none">
+								<path d="M15.1533 10H31.4802" stroke="#1B1D21" stroke-width="2" stroke-miterlimit="10"
+									stroke-linecap="round" stroke-linejoin="round" />
+								<path
+									d="M27.3918 26.9528V10H19.2391V26.9528C15.9417 27.9326 13.1072 30.0674 11.2543 32.9665C9.40143 35.8656 8.65407 39.3351 9.14897 42.7403C9.64387 46.1454 11.3479 49.2584 13.9494 51.5097C16.5508 53.761 19.8756 55 23.3154 55C26.7553 55 30.0801 53.761 32.6815 51.5097C35.2829 49.2584 36.987 46.1454 37.4819 42.7403C37.9768 39.3351 37.2294 35.8656 35.3766 32.9665C33.5237 30.0674 30.6892 27.9326 27.3918 26.9528Z"
+									stroke="#1B1D21" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+									stroke-linejoin="round" />
+								<path
+									d="M43.7393 22.265H51.9134V50.8622C51.9134 51.9465 51.4828 52.9864 50.7163 53.7531C49.9498 54.5198 48.9103 54.9506 47.8263 54.9506C46.7424 54.9506 45.7028 54.5198 44.9363 53.7531C44.1699 52.9864 43.7393 51.9465 43.7393 50.8622V22.265Z"
+									stroke="#1B1D21" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+									stroke-linejoin="round" />
+								<path d="M39.6514 22.265H55.9996" stroke="#1B1D21" stroke-width="2"
+									stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+					<div class="main-slider__adv__item">
+						<div class="main-slider__adv__item__text">
+							<span>Новейшие</span>
+							<span class="adv_big">технологии</span>
+							<span>в клинике</span>
+						</div>
+						<div class="main-slider__adv__item__img">
+							<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65"
+								fill="none">
+								<path
+									d="M27.5 15L32.5 10M22.5 42.5L42.5 22.5M32.5 55L37.5 50M43.75 50C47.2018 50 50 47.2018 50 43.75C50 40.2982 47.2018 37.5 43.75 37.5C40.2982 37.5 37.5 40.2982 37.5 43.75C37.5 47.2018 40.2982 50 43.75 50ZM21.25 27.5C24.7018 27.5 27.5 24.7018 27.5 21.25C27.5 17.7982 24.7018 15 21.25 15C17.7982 15 15 17.7982 15 21.25C15 24.7018 17.7982 27.5 21.25 27.5ZM16.25 55C19.7018 55 22.5 52.2018 22.5 48.75C22.5 45.2982 19.7018 42.5 16.25 42.5C12.7982 42.5 10 45.2982 10 48.75C10 52.2018 12.7982 55 16.25 55ZM48.75 22.5C52.2018 22.5 55 19.7018 55 16.25C55 12.7982 52.2018 10 48.75 10C45.2982 10 42.5 12.7982 42.5 16.25C42.5 19.7018 45.2982 22.5 48.75 22.5Z"
+									stroke="#1B1D21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="service">
+		<div class="container">
+			<div class="service__wrap">
+				<h2>Все наши услуги</h2>
+				<div class="service__block">
+					<div class="service__cart">
+						<h3>Хирургия</h3>
+						<a href="#" class="service__cart__link">Удаление ретинированных/дистопированных зубов</a>
+						<a href="#" class="service__cart__link">Удаление 8-ми зубов</a>
+						<a href="#" class="service__cart__link">Пластика уздечки языка, губы</a>
+						<a href="#" class="service__cart__link">Удаление постоянных зубов</a>
+						<a href="#" class="service__cart__link">Удаление молочных зубов</a>
+						<a href="#" class="service__cart__link">Операции по ортодонтичес-ким показаниям</a>
+					</div>
+
+					<div class="service__cart">
+						<h3>Ортодонтия</h3>
+						<a href="#" class="service__cart__link">Съемные аппараты для коррекции молочного прикуса</a>
+						<a href="#" class="service__cart__link">Индивидуальные каппы</a>
+						<a href="#" class="service__cart__link">Лечение на брекет-системах</a>
+						<a href="#" class="service__cart__link">Пластинки</a>
+					</div>
+					<div class="service__cart">
+						<h3>Гигиена полости рта</h3>
+						<a href="#" class="service__cart__link">Комплекс проф. гигиены “Молочные зубы”</a>
+						<a href="#" class="service__cart__link">Комплекс проф. гигены "Стандарт"</a>
+						<a href="#" class="service__cart__link">Комплекс проф. гигиены “Я росту” (для детей 9-14
+							лет)</a>
+					</div>
+					<div class="service__cart">
+						<h3>Терапия</h3>
+						<a href="#" class="service__cart__link">Лечение зубов</a>
+						<a href="#" class="service__cart__link">Лечение кариеса</a>
+						<a href="#" class="service__cart__link">Лечение кариеса молочных зубов</a>
+						<a href="#" class="service__cart__link">Лечение периодонтита</a>
+						<a href="#" class="service__cart__link">Лечение пульпита</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="record">
+		<div class="container">
+			<div class="record__wrap">
+				<div class="record__block">
+					<div class="record__info">
+						<h2>Запишитесь на прием</h2>
+						<div class="text">С радостью вас проконсультируем, это бесплатно. Оставьте контактные данные, и
+							мы с вами свяжемся.</div>
+						<div class="adv">
+							<div class="adv__item">
+								<div class="adv__item__text">
+									<span>В нашей клинике</span>
+									<span class="adv_big">30 врачей</span>
+									<span>для любой задачи</span>
+								</div>
+								<div class="adv__item__img">
+									<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65"
+										fill="none">
+										<path
+											d="M61.4709 33.1406H56.6337V24.7411H61.4906C62.1642 24.7411 62.805 24.4666 63.2735 23.9862C63.7412 23.5068 63.9997 22.8616 63.9997 22.194C63.9997 21.5263 63.7412 20.8812 63.2735 20.4017C62.805 19.9214 62.1642 19.6468 61.4906 19.6468H56.6337V17.7373C56.6337 15.428 55.7391 13.2084 54.1391 11.5681C52.5383 9.92699 50.3617 9.00029 48.0868 9.00029L17.8981 9.00028L17.8953 9.00029C15.6231 9.00679 13.4509 9.93524 11.852 11.5745C10.2539 13.2128 9.35751 15.428 9.35124 17.7346H9.35123V17.7373V19.6468H4.50943C3.83583 19.6468 3.195 19.9214 2.72646 20.4017C2.25875 20.8812 2.00029 21.5263 2.00029 22.194C2.00029 22.8616 2.25875 23.5067 2.72646 23.9862C3.19499 24.4666 3.83583 24.7411 4.50943 24.7411H9.35123V33.1406H4.50943C3.83582 33.1406 3.19499 33.4152 2.72646 33.8955C2.25876 34.375 2.00029 35.0201 2.00029 35.6878C2.00029 36.3554 2.25876 37.0006 2.72646 37.4801C3.195 37.9604 3.83583 38.235 4.50943 38.235H9.35123L9.35122 38.2566L9.35124 38.2614C9.36428 40.9309 10.1095 43.5444 11.504 45.8036C12.8986 48.0629 14.8873 49.878 17.2455 51.0381L17.2519 51.0412L22.5029 53.5781C22.5032 53.5783 22.5035 53.5784 22.5038 53.5786C25.786 55.1724 29.3736 55.9997 33.0075 55.9997C36.6418 55.9997 40.2298 55.1723 43.5122 53.5781L43.5124 53.578L48.6139 51.0991C48.6676 51.0831 48.7201 51.0625 48.7708 51.0375C51.1254 49.8753 53.1096 48.0587 54.4988 45.7987C55.8879 43.539 56.627 40.9261 56.6337 38.2591V38.2566V38.235H61.4906C62.1642 38.235 62.805 37.9604 63.2735 37.4801C63.7412 37.0006 63.9997 36.3554 63.9997 35.6878C63.9997 35.3546 63.9353 35.0241 63.8097 34.7153C63.684 34.4064 63.4992 34.1244 63.2647 33.8864C63.0302 33.6484 62.7506 33.459 62.4415 33.3305C62.134 33.2027 61.8041 33.138 61.4709 33.1406Z"
+											stroke="#1B1D21" stroke-width="1.99942" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M25.6116 38.7672H40.5097M21.1738 25.2579H44.9021" stroke="#1B1D21"
+											stroke-width="1.99942" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+
+							</div>
+							<div class="adv__item">
+								<div class="adv__item__text">
+									<span>Лечим под</span>
+									<span class="adv_big">наркозом</span>
+									<span>на благо ваших детей</span>
+								</div>
+								<div class="adv__item__img">
+									<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65"
+										fill="none">
+										<path
+											d="M33.1268 55.9759L33.1274 55.9759C41.6672 56.3511 49.3087 52.3166 53.8941 45.9589C54.3984 45.2667 54.7536 44.5735 54.9103 43.9054C55.0685 43.2312 55.0347 42.5216 54.6651 41.9087C53.9167 40.6678 52.2925 40.4962 50.7066 40.7891C49.2916 41.0458 47.8343 41.1529 46.3113 41.0886L46.3106 41.0886C35.9879 40.6608 27.5313 31.8979 27.4891 21.5688L27.4891 21.5653C27.468 18.7846 28.0376 16.1551 29.0722 13.7589L29.0729 13.7574C29.7063 12.2835 29.8696 10.6791 28.8245 9.68336C27.8007 8.70796 26.2031 8.89124 24.7412 9.51905C15.5784 13.4348 9.29892 22.7945 10.0627 33.5198C10.8976 45.6139 21.0114 55.436 33.1268 55.9759Z"
+											stroke="#1B1D21" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+					<form method="POST" class="record__form">
+						<input placeholder="Ваше имя" class="record__input"></input>
+						<input placeholder="+7 967 313 33 53" class="record__input"></input>
+						<span>Нажимая кнопку “отправить заявку” вы соглашаетесь с
+							<a href="#">политикой обработки
+								персональных данных.</a>
+						</span>
+
+						<input value="Отправить заявку" type="submit" class="record__submit record__input">
+					</form>
+				</div>
+			</div>
+	</section>
+
+	<div class="workers">
+		<div class="container">
+			<div class="workers__wrap">
+				<div class="workers__block">
+					<h2>Наши врачи</h2>
+					<span class="text">Специалисты с многолетним опытом работы, которые любят детей. У нас у всех есть
+						свои дети и к вашим мы относимся, как к своим.</span>
+					<div class="workers__slider">
+						<div class="workers__slide workers__slide_active">
+							<div class="workers__slide__photo">
+								<img src="/img/worker_1.png" alt="">
+							</div>
+							<div class="workers__slide__info">
+								<div class="workers__slide__name">Мельчук
+									Анна Павловна </div>
+								<div class="workers__slide__job">Врач-стоматолог, имплантолог, ортопед, главный врач
+									клиники</div>
+							</div>
+						</div>
+						<div class="workers__slide workers__slide_active">
+							<div class="workers__slide__photo">
+								<img src="/img/worker_1.png" alt="">
+							</div>
+							<div class="workers__slide__info">
+								<div class="workers__slide__name">Мельчук
+									Анна Павловна</div>
+								<div class="workers__slide__job">Врач-стоматолог, имплантолог, ортопед, главный врач
+									клиники</div>
+							</div>
+						</div>
+						<div class="workers__slide workers__slide_active">
+							<div class="workers__slide__photo">
+								<img src="/img/worker_1.png" alt="">
+							</div>
+							<div class="workers__slide__info">
+								<div class="workers__slide__name">Мельчук
+									Анна Павловна</div>
+								<div class="workers__slide__job">Врач-стоматолог, имплантолог, ортопед, главный врач
+									клиники</div>
+							</div>
+						</div>
+						<div class="workers__slide">
+							<div class="workers__slide__photo">
+								<img src="/img/worker_1.png" alt="">
+							</div>
+							<div class="workers__slide__info">
+								<div class="workers__slide__name">Мельчук
+									Анна Павловна</div>
+								<div class="workers__slide__job">Врач-стоматолог, имплантолог, ортопед, главный врач
+									клиники</div>
+							</div>
+						</div>
+						<div class="workers__slide">
+							<div class="workers__slide__photo">
+								<img src="/img/worker_1.png" alt="">
+							</div>
+							<div class="workers__slide__info">
+								<div class="workers__slide__name">Мельчук
+									Анна Павловна</div>
+								<div class="workers__slide__job">Врач-стоматолог, имплантолог, ортопед, главный врач
+									клиники</div>
+							</div>
+						</div>
+						<div class="workers__slide">
+							<div class="workers__slide__photo">
+								<img src="/img/worker_1.png" alt="">
+							</div>
+							<div class="workers__slide__info">
+								<div class="workers__slide__name">Мельчук
+									Анна Павловна</div>
+								<div class="workers__slide__job">Врач-стоматолог, имплантолог, ортопед, главный врач
+									клиники</div>
+							</div>
+						</div>
+
+						<div class="workers__slider__right workers__slider__nav">
+							<img src="/img/workers_arrow.svg" alt="">
+						</div>
+						<div class="workers__slider__left workers__slider__nav">
+							<img src="/img/workers_arrow.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="why">
+		<div class="container">
+			<div class="why__wrap">
+				<div class="why__block">
+					<h2>Почему нам доверяют?</h2>
+					<div class="why__cards">
+						<div class="why__card">
+							<span class="why__card__text text">Более</span>
+							<span class="why__card__big text_big"> 10 лет
+								успешной</span>
+							<span class="why__card__text text">работы <br>
+								с детьми.</span>
+							<div class="why__card__ico">
+								<img src="/img/why_1.svg" alt="">
+							</div>
+
+						</div>
+						<div class="why__card why__card_green">
+							<span class="why__card__text text">Операции</span>
+							<span class="why__card__big text_big"> любой
+								сложности</span>
+							<span class="why__card__text text">в нашей <br> клинике.</span>
+							<div class="why__card__ico">
+								<img src="/img/why_2.svg" alt="">
+							</div>
+
+						</div>
+						<div class="why__card why__card_green">
+							<span class="why__card__text text">Специалисты</span>
+							<span class="why__card__big text_big"> высокого
+								уровня</span>
+							<span class="why__card__text text">в нашей <br> клинике.</span>
+							<div class="why__card__ico">
+								<img src="/img/why_3.svg" alt="">
+							</div>
+
+						</div>
+						<div class="why__card">
+							<span class="why__card__text text">Узкопрофильные</span>
+							<span class="why__card__big text_big"> врачи
+								в клинике</span>
+							<span class="why__card__text text">под любую <br>
+								задачу.</span>
+							<div class="why__card__ico">
+								<img src="/img/why_4.svg" alt="">
+							</div>
+
+						</div>
+						<div class="why__card">
+							<span class="why__card__text text">В клинике</span>
+							<span class="why__card__big text_big"> новейшие
+								технологии</span>
+							<span class="why__card__text text">для качественной <br>
+								работы.</span>
+
+							<div class="why__card__ico">
+								<img src="/img/why_5.svg" alt="">
+							</div>
+
+						</div>
+						<div class="why__card why__card_green">
+							<span class="why__card__text text">В клинике</span>
+							<span class="why__card__big text_big"> есть всё
+								для полного</span>
+							<span class="why__card__text text">лечения <br>
+								от “А до Я”.</span>
+							<div class="why__card__ico">
+								<img src="/img/why_6.svg" alt="">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="feed">
+		<div class="container">
+			<div class="feed__wrap">
+				<h2>Отзывы</h2>
+				<div class="feed__block">
+					<div class="feed__item">
+						<div class="feed__item__head">
+							<div class="feed__item__photo">
+								<img src="/img/feed_1.png" alt="">
+							</div>
+							<div class="feed__item__info">
+								<div class="feed__item__name text">Мария</div>
+								<div class="feed__item__rate">
+									<img src="/img/rate_5.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="feet__item__text text_tall">Вызвала врача ночью. У нашей кошечкиначались роды, врач
+							приехала
+							быстро.
+							Роды были сложные, но всё прошло хорошо.
+							После врач ещё несколько раз приезжала
+							посмотреть состояниенашей кошки и котят. </div>
+					</div>
+					<div class="feed__item">
+						<div class="feed__item__head">
+							<div class="feed__item__photo">
+								<img src="/img/feed_2.png" alt="">
+							</div>
+							<div class="feed__item__info">
+								<div class="feed__item__name text">Антон</div>
+								<div class="feed__item__rate">
+									<img src="/img/rate_5.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="feet__item__text text_tall">Замечательная вет. клиника! Киса быстро отошла от
+							операции стерилизации и хорошо себя чувствует. Будем теперь за вет. помощью обращаться сюда!
+						</div>
+					</div>
+					<div class="feed__item">
+						<div class="feed__item__head">
+							<div class="feed__item__photo">
+								<img src="/img/feed_3.png" alt="">
+							</div>
+							<div class="feed__item__info">
+								<div class="feed__item__name text">Вероника</div>
+								<div class="feed__item__rate">
+									<img src="/img/rate_5.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="feet__item__text text_tall">Были в этой клинике впервые, и могу смело сказать: мы с
+							муркой будем туда возвращаться. Прекрасные врачи, отличное отношение к животным. Пожалуй,
+							лучшая клиника для кошек.</div>
+					</div>
+					<div class="feed__item">
+						<div class="feed__item__head">
+							<div class="feed__item__photo">
+								<img src="/img/feed_4.png" alt="">
+							</div>
+							<div class="feed__item__info">
+								<div class="feed__item__name text">Антон</div>
+								<div class="feed__item__rate">
+									<img src="/img/rate_5.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="feet__item__text text_tall">Замечательная вет. клиника! Киса быстро отошла от
+							операции стерилизации и хорошо себя чувствует. Будем теперь за вет. помощью обращаться сюда!
+						</div>
+					</div>
+					<a href="#" class="feed__item feed__item__all">
+						<span class="text_tall">Все
+							отзывы</span>
+						<img src="/img/feed_arrow.svg" alt="">
+					</a>
+
+				</div>
+
+				<div class="feed__block feed__block__source">
+					<div class="feed__item feed__item__source">
+						<div class="feed__logo">
+							<img src="/img/google.svg" alt="">
+						</div>
+						<div class="feed__item__rate">
+							<img src="/img/rate_4-5.svg" alt="">
+							<div class="text">4.95 из 5</div>
+						</div>
+					</div>
+					<div class="feed__item feed__item__source">
+						<div class="feed__logo">
+							<img src="/img/yandex.svg" alt="">
+						</div>
+						<div class="feed__item__rate">
+							<img src="/img/rate_4-5.svg" alt="">
+							<div class="text">4.95 из 5</div>
+						</div>
+					</div>
+					<div class="feed__item feed__item__source">
+						<div class="feed__logo">
+							<img src="/img/otzovnik.svg" alt="">
+						</div>
+						<div class="feed__item__rate">
+							<img src="/img/rate_4-5.svg" alt="">
+							<div class="text">4.95 из 5</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="galery">
+		<div class="container">
+			<div class="galery__wrap">
+				<h2>Интерьер клиники</h2>
+				<div class="galery__block slider__effect">
+					<div class="galery__item galery_visible">
+						<img src="/img/galery_1.jpg" alt="">
+
+					</div>
+					<div class="galery__item galery_visible">
+						<img src="/img/galery_2.jpg" alt="">
+
+					</div>
+					<div class="galery__item galery_visible">
+						<img src="/img/galery_3.jpg" alt="">
+
+					</div>
+					<div class="galery__item galery_visible">
+						<img src="/img/galery_4.jpg" alt="">
+
+					</div>
+					<div class="galery__item galery_visible">
+						<img src="/img/galery_5.jpg" alt="">
+
+					</div>
+					<div class="galery__item galery_visible">
+						<img src="/img/galery_6.jpg" alt="">
+
+					</div>
+					<div class="galery__item">
+						<img src="/img/galery_7.jpg" alt="">
+
+					</div>
+					<div class="galery__item">
+						<img src="/img/galery_1.jpg" alt="">
+
+					</div>
+
+					<div class="galery__slider__right galery__slider__nav">
+						<img src="/img/workers_arrow.svg" alt="">
+					</div>
+					<div class="galery__slider__left galery__slider__nav">
+						<img src="/img/workers_arrow.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="record">
+		<div class="container">
+			<div class="record__wrap">
+				<div class="record__block">
+					<div class="record__info">
+						<h2>Запишитесь на прием</h2>
+						<div class="text">С радостью вас проконсультируем, это бесплатно. Оставьте контактные данные, и
+							мы с вами свяжемся.</div>
+						<div class="adv">
+							<div class="adv__item">
+								<div class="adv__item__text">
+									<span>В нашей клинике</span>
+									<span class="adv_big">30 врачей</span>
+									<span>для любой задачи</span>
+								</div>
+								<div class="adv__item__img">
+									<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65"
+										fill="none">
+										<path
+											d="M61.4709 33.1406H56.6337V24.7411H61.4906C62.1642 24.7411 62.805 24.4666 63.2735 23.9862C63.7412 23.5068 63.9997 22.8616 63.9997 22.194C63.9997 21.5263 63.7412 20.8812 63.2735 20.4017C62.805 19.9214 62.1642 19.6468 61.4906 19.6468H56.6337V17.7373C56.6337 15.428 55.7391 13.2084 54.1391 11.5681C52.5383 9.92699 50.3617 9.00029 48.0868 9.00029L17.8981 9.00028L17.8953 9.00029C15.6231 9.00679 13.4509 9.93524 11.852 11.5745C10.2539 13.2128 9.35751 15.428 9.35124 17.7346H9.35123V17.7373V19.6468H4.50943C3.83583 19.6468 3.195 19.9214 2.72646 20.4017C2.25875 20.8812 2.00029 21.5263 2.00029 22.194C2.00029 22.8616 2.25875 23.5067 2.72646 23.9862C3.19499 24.4666 3.83583 24.7411 4.50943 24.7411H9.35123V33.1406H4.50943C3.83582 33.1406 3.19499 33.4152 2.72646 33.8955C2.25876 34.375 2.00029 35.0201 2.00029 35.6878C2.00029 36.3554 2.25876 37.0006 2.72646 37.4801C3.195 37.9604 3.83583 38.235 4.50943 38.235H9.35123L9.35122 38.2566L9.35124 38.2614C9.36428 40.9309 10.1095 43.5444 11.504 45.8036C12.8986 48.0629 14.8873 49.878 17.2455 51.0381L17.2519 51.0412L22.5029 53.5781C22.5032 53.5783 22.5035 53.5784 22.5038 53.5786C25.786 55.1724 29.3736 55.9997 33.0075 55.9997C36.6418 55.9997 40.2298 55.1723 43.5122 53.5781L43.5124 53.578L48.6139 51.0991C48.6676 51.0831 48.7201 51.0625 48.7708 51.0375C51.1254 49.8753 53.1096 48.0587 54.4988 45.7987C55.8879 43.539 56.627 40.9261 56.6337 38.2591V38.2566V38.235H61.4906C62.1642 38.235 62.805 37.9604 63.2735 37.4801C63.7412 37.0006 63.9997 36.3554 63.9997 35.6878C63.9997 35.3546 63.9353 35.0241 63.8097 34.7153C63.684 34.4064 63.4992 34.1244 63.2647 33.8864C63.0302 33.6484 62.7506 33.459 62.4415 33.3305C62.134 33.2027 61.8041 33.138 61.4709 33.1406Z"
+											stroke="#1B1D21" stroke-width="1.99942" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M25.6116 38.7672H40.5097M21.1738 25.2579H44.9021" stroke="#1B1D21"
+											stroke-width="1.99942" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+
+							</div>
+							<div class="adv__item">
+								<div class="adv__item__text">
+									<span>Лечим под</span>
+									<span class="adv_big">наркозом</span>
+									<span>на благо ваших детей</span>
+								</div>
+								<div class="adv__item__img">
+									<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65"
+										fill="none">
+										<path
+											d="M33.1268 55.9759L33.1274 55.9759C41.6672 56.3511 49.3087 52.3166 53.8941 45.9589C54.3984 45.2667 54.7536 44.5735 54.9103 43.9054C55.0685 43.2312 55.0347 42.5216 54.6651 41.9087C53.9167 40.6678 52.2925 40.4962 50.7066 40.7891C49.2916 41.0458 47.8343 41.1529 46.3113 41.0886L46.3106 41.0886C35.9879 40.6608 27.5313 31.8979 27.4891 21.5688L27.4891 21.5653C27.468 18.7846 28.0376 16.1551 29.0722 13.7589L29.0729 13.7574C29.7063 12.2835 29.8696 10.6791 28.8245 9.68336C27.8007 8.70796 26.2031 8.89124 24.7412 9.51905C15.5784 13.4348 9.29892 22.7945 10.0627 33.5198C10.8976 45.6139 21.0114 55.436 33.1268 55.9759Z"
+											stroke="#1B1D21" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+					<form method="POST" class="record__form">
+						<input placeholder="Ваше имя" class="record__input"></input>
+						<input placeholder="+7 967 313 33 53" class="record__input"></input>
+						<span>Нажимая кнопку “отправить заявку” вы соглашаетесь с
+							<a href="#">политикой обработки
+								персональных данных.</a>
+						</span>
+
+						<input value="Отправить заявку" type="submit" class="record__submit record__input">
+					</form>
+				</div>
+			</div>
+	</section>
 
 
 
-</body>
+<link rel="stylesheet" href="/css/footer.css">
+<footer class="footer">
+	<div class="container">
+		<div class="footer__wrap">
+
+		</div>
+	</div>
+</footer></body>
+
 </html>
